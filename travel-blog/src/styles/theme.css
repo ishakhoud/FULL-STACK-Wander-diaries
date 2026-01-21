@@ -1,0 +1,68 @@
+:root{
+  --lavender: #c7a9e5;
+  --lavender-dark: #a57edc;
+  --lavender-soft: #f5eefb;
+  --text-muted: #6b587a;
+}
+
+/* Global */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(90deg, #ffffff, #d6d1de);
+  color: #3a2a53;
+}
+
+/* headings */
+h1, h2, h3, .display-6 {
+  color: var(--text-muted);
+}
+
+/* brand color */
+.text-purple {
+  color: var(--lavender-dark) !important;
+}
+
+/* buttons */
+.btn-primary {
+  background-color: var(--lavender-dark);
+  border-color: var(--lavender-dark);
+}
+.btn-primary:hover {
+  background-color: #8e44ad;
+  border-color: #8e44ad;
+}
+
+/* cards */
+.card {
+  border-radius: 12px;
+}
+.card .card-body h6 {
+  color: var(--lavender-dark);
+}
+
+/* badges */
+.badge {
+  border-radius: 999px;
+}
+
+/* small adjustments */
+.navbar .navbar-brand { font-weight: 600; }
+.category-btn {
+  background-color: lavender;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  background-color: purple;
+  color: white;
+}
+
+.category-btn.active {
+  background-color: purple;
+  color: white;
+}
